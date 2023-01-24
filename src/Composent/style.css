@@ -52,6 +52,7 @@ input[type=text] {
   .ajo{
     width: 500px;
   }
+
 @media (max-width:650px) {
   .inp{
     width: 200px;
@@ -74,4 +75,13 @@ input[type=text] {
 .ajo{
   width: 200px;
 }
+}
+@media (min-width:650px) and (max-width:1100px){
+  .inp{
+    width: 400px;
+    margin-left: 25px;
+  }
+  .ajo{
+    width: 400px;
+  }
 }
