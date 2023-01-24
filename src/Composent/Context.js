@@ -1,7 +1,7 @@
 import React,{useContext} from 'react';
 import{tdd} from "./FormTak";
 import Task from './Task';
-
+import './style.css'
 
 export default function Context() {
     const{
@@ -22,7 +22,7 @@ export default function Context() {
       <br />
       <form action="">
         
-     <input type="text" placeholder='ENTREZ UNE TACHE:' value={task} onChange={(e)=>{settask(e.target.value)}}  style={{width:'500px',marginLeft:'200px',marginBottom:'20px',marginTop:'10px'}} className='form-control ' />
+     <input type="text" placeholder='ENTREZ UNE TACHE:' value={task} onChange={(e)=>{settask(e.target.value)}}  className='form-control inp' />
        <input type="button" onClick={addtask} className='buttonn ' value="AJOUTER" />
 
       </form>

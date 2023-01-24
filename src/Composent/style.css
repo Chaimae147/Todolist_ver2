@@ -1,7 +1,7 @@
  body{
     background-image: linear-gradient(rgb(116, 113, 113),rgb(236, 226, 226));
     background-repeat: no-repeat;
-    height: 700px;
+    height: 1000px;
 } 
 .title1{
   text-align: center;
@@ -43,3 +43,35 @@ input[type=text] {
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
     font-family: century gothic;
   } 
+  .inp {
+    width:500px;
+    margin-left:200px;
+    margin-bottom:20px;
+    margin-top:10px
+  }
+  .ajo{
+    width: 500px;
+  }
+@media (max-width:600px) {
+  .inp{
+    width: 200px;
+    margin-left: 25px;
+  }
+  h2{
+    font-size: medium;
+  }
+  h2{
+    font-size: large;
+  }
+  body{
+    background-image: linear-gradient(rgb(116, 113, 113),rgb(236, 226, 226));
+    background-repeat: no-repeat;
+    height: 1200px;
+} 
+.buttonn{
+  margin-left: 1px;
+}
+.ajo{
+  width: 200px;
+}
+}
