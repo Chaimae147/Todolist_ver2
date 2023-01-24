@@ -52,7 +52,7 @@ input[type=text] {
   .ajo{
     width: 500px;
   }
-@media (max-width:600px) {
+@media (max-width:650px) {
   .inp{
     width: 200px;
     margin-left: 25px;
